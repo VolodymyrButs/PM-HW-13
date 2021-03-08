@@ -91,7 +91,9 @@ class Todos extends React.Component {
       <div>
         <div style={{ margin: "60px" }}>
           <select
-            onChange={(e) => this.setState({ current: e.target.value })}
+            onChange={(e) =>
+              this.setState({ current: e.target.value, search: "" })
+            }
             style={{ marginRight: "10px" }}
           >
             {this.state.users.map((user) => {
