@@ -1,0 +1,7 @@
+.retro {
+  display: flex;
+  width: 100vw;
+  background-color: #333;
+  padding-top: 50px;
+  height: calc(100vh - 50px);
+}
